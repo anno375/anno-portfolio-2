@@ -39,11 +39,11 @@ hero
     position: relative;
     border: none;
     width: 100vw;
-    height: auto;
+    height: auto
 }
 .hero{
     width: 100vw;
-    height: 100vh;
+    height: 50vh;
     margin: 0;
     padding: 0;
     position: relative;
@@ -71,7 +71,7 @@ header
     display: flex;
     margin-left: 10vw;
     backdrop-filter: blur(10px);
-    z-index: 4;
+    margin-bottom: 2vh;
 }
 .nav{
     display: flex;
@@ -88,7 +88,7 @@ header
 .h-works{
     margin: auto 2vw auto 0;
 }
-.works-link{}
+/* .works-link{} */
 .h-about{
     margin: auto 2vw auto 0;
 }
@@ -99,31 +99,27 @@ header
 /* .other-link{} */
 
 
-/* 
-top 
-*/
-.top{
-}
-.top-section{}
-.top-title{}
-.topsubtitle{}
+/* item */
+/* .item{
+    margin-top: 100vh;
+}   */
+
 
 /* 
 works 
 */
 .works{
     position: sticky;
+    background-clip: border-box;
     background-color: rgba(0, 0, 0, 0.5); 
     backdrop-filter: blur(10px);
-    z-index: 1;
-    /* background-clip: border-box; */
     border-radius: 4vw;
     width: 80vw;
     height: 80vh;
     top: 14vh;
     left: 10vw;
     overflow: hidden;
-    margin: 0 0 10% 0;
+    padding-bottom: 0;
     /* transition: transform 1s, opacity 1s;
     will-change: transform, opacity; */
 }
@@ -282,15 +278,14 @@ about
     position: sticky;
     background-color: rgba(0, 0, 0, 0.5); 
     backdrop-filter: blur(10px);
-    z-index: 2;
-    /* background-clip: border-box; */
+    background-clip: border-box;
     border-radius: 4vw;
     width: 80vw;
     height: 80vh;
     top: 14vh;
     left: 10vw;
+    margin-top: 16vh;
     overflow: hidden;
-    margin: 0 0 10% 0;
 }
 .about-item{
     display: flex;
@@ -352,14 +347,14 @@ others
     position: sticky;
     background-color: rgba(0, 0, 0, 0.5); 
     backdrop-filter: blur(10px);
-    z-index: 3;
+    background-clip: border-box;
     border-radius: 4vw;
     width: 80vw;
     height: 80vh;
     top: 14vh;
     left: 10vw;
     overflow: hidden;
-    margin: 0 0 8% 0;
+    margin-top: 6vh;
 }
 .others-section{
     display: flex;
@@ -424,6 +419,11 @@ others
     gap: 0;
     overflow: hidden;
 }
+
+.item-bottom-padding{
+    height: 6vh;
+}
+
 .graphic{
     position: relative;
     height: 10vh;
