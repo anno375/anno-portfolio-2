@@ -1,0 +1,508 @@
+@charset "utf-8" ;
+
+	/* 959px以下に適用されるCSS（タブレット用） */
+@media screen and (max-width: 959px) {
+}
+
+/* 
+all
+*/
+.all{
+    color: #FFF;
+    width: 100%;
+    height: auto;
+    background-color: #000;
+    font-family: 'Noto Sans JP', sans-serif;
+    position: relative;
+}
+
+a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+a:visited{
+    color: #ffffff;
+    text-decoration: none;
+}
+a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+/* 
+hero 
+*/
+#hero{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    border: none;
+    width: 100vw;
+    height: auto;
+}
+.hero{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+.hero > video {
+    position: fixed;
+    width: 100vw;
+    height: auto;
+    margin: 0;
+}
+/* .background-video{} */
+
+
+/* 
+header 
+*/
+.header{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 100vh;
+    width: 80vw;
+    height: 8vh;
+    top: 3.4vh;
+    position: fixed;
+    display: flex;
+    margin-left: 10vw;
+    backdrop-filter: blur(10px);
+    z-index: 4;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+/* .logo{} */
+.h-list{
+    list-style: none;
+    display: flex;
+    text-align: right;
+    font-size: 0.8em;
+    margin: 0 4vw 0 auto;
+}
+.h-works{
+    margin: auto 2vw auto 0;
+}
+.works-link{}
+.h-about{
+    margin: auto 2vw auto 0;
+}
+/* .about-link{} */
+.h-others{
+    margin: auto 2vw auto 0;
+}
+/* .other-link{} */
+
+
+/* 
+top 
+*/
+.top{
+}
+.top-section{}
+.top-title{}
+.topsubtitle{}
+
+/* 
+works 
+*/
+.works{
+    position: sticky;
+    background-color: rgba(0, 0, 0, 0.5); 
+    backdrop-filter: blur(10px);
+    z-index: 1;
+    /* background-clip: border-box; */
+    border-radius: 4vw;
+    width: 80vw;
+    height: 80vh;
+    top: 14vh;
+    left: 10vw;
+    overflow: hidden;
+    margin: 0 0 10% 0;
+    /* transition: transform 1s, opacity 1s;
+    will-change: transform, opacity; */
+}
+.works-section{
+    display: flex;
+}
+/* .works-top{} */
+.works-headline{
+    text-align: left;
+    font-size: 5.6vw;
+    font-weight: bold;
+    margin: 4vw 0 0 4vw;
+    padding: 0;
+    font-family: 'Anton';
+}
+.works-sub{
+    text-align: left;
+    font-size: 2vw;
+    font-weight: bold;
+    margin: -6% 0 0 4vw;
+    font-family: 'Anton';
+}
+.works-description{
+    width: 26vw;
+    text-align: left;
+    font-size: 0.6em;
+    font-weight: bold;
+    margin: 20% 0 0 4vw;
+    font-weight: lighter;
+}
+
+.portfolio{
+    position: relative;
+}
+.portfolio p {
+    position: absolute;
+    top: 2%;
+    left: 16%;
+}
+.portfolio-img{
+    width: 54vw;
+    height:38vh;
+    object-fit: cover;
+    margin: 0 0 0 4vw;
+    border-radius: 4vw;
+    mask-repeat: no-repeat;
+    mask-position: 14vh 10vw;
+    mask-size: 80vw 80vh;
+}
+
+.works-section2{
+    display: flex;
+    height: 40vh;
+    overflow: hidden;
+}
+.works-item{
+    width: 40vw;
+    height: 36vh;
+    object-fit: cover;
+    margin: 2% 0 3% 5%;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 20vw);
+    gap: 0;
+    overflow: hidden;
+}
+.hospital{
+    position: relative;
+    height: 10vh;
+}
+.hospital p {
+    position: absolute;
+    top: 0%;
+    left: 10%;
+}
+.hospital-img{
+    width: 19vw;
+    border-radius: 2vw;
+    object-fit: cover;
+    display: block;
+}
+.web{
+    position: relative;
+    height: 10vh;
+}
+.web p {
+    position: absolute;
+    top: 0%;
+    left: 10%;
+}
+.web-img{
+    width: 19vw;
+    border-radius: 2vw;
+    object-fit: cover;
+    margin-top: -3.6vh;
+}
+.architect{
+    position: relative;
+    height: 10vh;
+}
+.architect p {
+    position: absolute;
+    top: 0%;
+    left: 10%;
+}
+.architect-img{
+    width: 19vw;
+    border-radius: 2vw;
+    object-fit: cover;
+}
+.drugstore{
+    position: relative;
+    height: 10vh;
+}
+.drugstore p {
+    position: absolute;
+    top: 0%;
+    left: 10%;
+}
+.drugstore-img{
+    width: 19vw;
+    border-radius: 2vw;
+    object-fit: cover;
+    margin-top: 6vh;
+}
+
+.works-detail{
+    text-align: center;
+    margin: 1% 5% 3% 0;
+    height: 38vh;
+}
+.works-detail > .detail-headline{
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 0 0 0 4vw;
+    font-family: 'Anton';
+}
+.works-list{
+    font-size: 0.75em;
+    text-align: left;
+    margin: 0.4vh 0 0 2vw;
+    padding: 0;
+}
+/* .w-portfolio{}
+.w-hospital{}
+.w-web{}
+.w-architect{}
+.w-drugstore{} */
+
+
+
+/* 
+about 
+*/
+.about{
+    position: sticky;
+    background-color: rgba(0, 0, 0, 0.5); 
+    backdrop-filter: blur(10px);
+    z-index: 2;
+    /* background-clip: border-box; */
+    border-radius: 4vw;
+    width: 80vw;
+    height: 80vh;
+    top: 14vh;
+    left: 10vw;
+    overflow: hidden;
+    margin: 0 0 10% 0;
+}
+.about-item{
+    display: flex;
+    padding: 0;
+}
+.profile-img{
+    width: 40vw;
+    height: 80vh;
+    object-fit: cover;
+    margin: 6vh 0 0 4vw;
+    border-radius: 4vw;
+    mask-repeat: no-repeat;
+    mask-position: 14vh 10vw;
+    mask-size: 80vw 80vh;
+}
+/* .about-section{} */
+.about-headline{
+    text-align: left;
+    font-size: 5.6vw;
+    font-weight: bold;
+    margin: 4vw 0 0 12vw;
+    padding: 0;
+    font-family: 'Anton';
+}
+.about-sub{
+    text-align: left;
+    font-size: 2vw;
+    font-weight: bold;
+    margin: -4.6% 0 0 12vw;
+    font-family: 'Anton';
+}
+.about-description{
+    width: 26vw;
+    text-align: left;
+    font-size: 0.6em;
+    font-weight: bold;
+    margin: 16% 0 0 12vw;
+    font-weight: lighter;
+}
+.about-name{
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: bold;
+    font-family: 'Anton';
+}
+.about-text{
+    font-size: 0.75em;
+    text-align: left;
+    margin: 0.4vh 0 0 2vw;
+    padding: 0;
+    margin: 0 12%;
+}
+
+
+/* 
+others 
+*/
+.others{
+    position: sticky;
+    background-color: rgba(0, 0, 0, 0.5); 
+    backdrop-filter: blur(10px);
+    z-index: 3;
+    border-radius: 4vw;
+    width: 80vw;
+    height: 80vh;
+    top: 14vh;
+    left: 10vw;
+    overflow: hidden;
+    margin: 0 0 8% 0;
+}
+.others-section{
+    display: flex;
+}
+/* .others-top{} */
+.others-headline{
+    text-align: left;
+    font-size: 5.6vw;
+    font-weight: bold;
+    margin: 4vw 0 0 4vw;
+    padding: 0;
+    font-family: 'Anton';
+}
+.others-sub{
+    text-align: left;
+    font-size: 2vw;
+    font-weight: bold;
+    margin: -6% 0 0 4vw;
+    font-family: 'Anton';
+}
+.others-description{
+    width: 26vw;
+    text-align: left;
+    font-size: 0.6em;
+    font-weight: bold;
+    margin: 20% 0 0 4vw;
+    font-weight: lighter;
+}
+
+.illustration{
+    position: relative;
+}
+.illustration p {
+    position: absolute;
+    top: 2%;
+    left: 16%;
+}
+.illustration-img{
+    width: 54vw;
+    height:38vh;
+    object-fit: cover;
+    margin: 0 0 0 4vw;
+    border-radius: 4vw;
+    mask-repeat: no-repeat;
+    mask-position: 14vh 10vw;
+    mask-size: 80vw 80vh;
+}
+
+.others-section2{
+    display: flex;
+    height: 40vh;
+    overflow: hidden;
+}
+.others-item{
+    width: 40vw;
+    height: 36vh;
+    object-fit: cover;
+    margin: 2% 0 3% 5%;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 20vw);
+    gap: 0;
+    overflow: hidden;
+}
+.graphic{
+    position: relative;
+    height: 10vh;
+}
+.graphic p {
+    position: absolute;
+    top: 0%;
+    left: 10%;
+}
+.graphic-img{
+    width: 19vw;
+    border-radius: 2vw;
+    object-fit: cover;
+    display: block;
+}
+.fashion{
+    position: relative;
+    height: 10vh;
+}
+.fashion p {
+    position: absolute;
+    top: 0%;
+    left: 10%;
+}
+.fashion-img{
+    width: 19vw;
+    border-radius: 2vw;
+    object-fit: cover;
+    margin-top: -3.6vh;
+}
+.vtuber{
+    position: relative;
+    height: 10vh;
+}
+.vtuber p {
+    position: absolute;
+    top: 0%;
+    left: 10%;
+}
+.vtuber-img{
+    width: 19vw;
+    border-radius: 2vw;
+    object-fit: cover;
+}
+.character{
+    position: relative;
+    height: 10vh;
+}
+.character p {
+    position: absolute;
+    top: 0%;
+    left: 10%;
+}
+.character-img{
+    width: 19vw;
+    border-radius: 2vw;
+    object-fit: cover;
+    margin-top: 6vh;
+}
+
+.others-detail{
+    text-align: center;
+    margin: 1% 5% 3% 0;
+    height: 38vh;
+}
+.others-detail > .detail-headline{
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 0 0 0 4vw;
+    font-family: 'Anton';
+}
+.others-list{
+    font-size: 0.75em;
+    text-align: left;
+    margin: 0.4vh 0 0 2vw;
+    padding: 0;
+}
+/* .o-kuwasawa{}
+.o-illustration{}
+.o-fashion{}
+.o-graphic{}
+.o-character{} */
