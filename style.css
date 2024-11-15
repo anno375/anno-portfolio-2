@@ -111,10 +111,10 @@ works
     backdrop-filter: blur(10px);
     border-radius: 4vw;
     width: 80vw;
-    height: 80vh;
+    /* height: auto; */
     top: 14vh;
     left: 10vw;
-    overflow: hidden;
+    /* overflow: hidden; */
     padding-bottom: 0;
     /* transition: transform 1s, opacity 1s;
     will-change: transform, opacity; */
@@ -245,7 +245,7 @@ works
 .works-detail{
     text-align: center;
     margin: 1% 5% 3% 0;
-    height: 38vh;
+    /* height: 38vh; */
 }
 .works-detail > .detail-headline{
     font-size: 1.4em;
@@ -869,7 +869,7 @@ others
             font-family: 'Anton';
         }
         .others-list{
-            font-size: 0.2em;
+            font-size: 0.6em;
             margin: 0 0 0 10%;
             padding: 0;
         }
