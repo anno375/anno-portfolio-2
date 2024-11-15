@@ -111,10 +111,10 @@ works
     backdrop-filter: blur(10px);
     border-radius: 4vw;
     width: 80vw;
-    /* height: auto; */
+    height: 80vh;
     top: 14vh;
     left: 10vw;
-    /* overflow: hidden; */
+    overflow: hidden;
     padding-bottom: 0;
     /* transition: transform 1s, opacity 1s;
     will-change: transform, opacity; */
@@ -245,7 +245,7 @@ works
 .works-detail{
     text-align: center;
     margin: 1% 5% 3% 0;
-    /* height: 38vh; */
+    height: 38vh;
 }
 .works-detail > .detail-headline{
     font-size: 1.4em;
@@ -505,7 +505,7 @@ others
 .o-character{} */
 
 	/* 959px以下に適用されるCSS（タブレット用） */
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 959px) {
         .hero > video {
             width: 200vw;
             height: auto;
@@ -544,7 +544,7 @@ others
         .works-description{
             width: 72vw;
             text-align: left;
-            font-size: 0.2em;
+            font-size: 1.6vw;
             font-weight: bold;
             margin: 0 0 0 4vw;
             font-weight: lighter;
@@ -578,7 +578,7 @@ others
             width: 74vw;
             height: 20vh;
             object-fit: cover;
-            margin: 2% 0 3% 5vw;
+            margin: 5% 0 3% 5vw;
             padding: 0;
             display: grid;
             grid-template-columns: repeat(2, 35vw);
@@ -640,7 +640,6 @@ others
             position: absolute;
             top: 50%;
             left: 10%;
-            margin: 0;
         }
         .drugstore-img{
             width: 34vw;
@@ -661,7 +660,7 @@ others
             margin: 1% 0 0 0;
         }
         .works-list{
-            font-size: 0.6em;
+            font-size: 2vw;
             text-align: left;
             padding: 0;
             margin-left: 10%;
@@ -687,9 +686,9 @@ others
         /* .about-section{} */
         .about-headline{
             text-align: left;
-            font-size: 4vw;
+            font-size: 5.6vw;
             font-weight: bold;
-            margin: 1vw 0 0 10vw;
+            margin: 4vw 0 0 10vw;
             padding: 0;
             font-family: 'Anton';
         }
@@ -703,26 +702,28 @@ others
         .about-description{
             width: 70vw;
             text-align: left;
-            font-size: 0.4em;
+            font-size: 1.6vw;
             font-weight: bold;
             margin: 0 0 0 10vw;
             font-weight: lighter;
         }
         .about-name{
             text-align: center;
-            font-size: 3vw;
+            font-size: 1em;
             font-weight: bold;
             font-family: 'Anton';
-            margin: 4% 0 0 0;
+            margin: 6% 0 0 0;
         }
         .about-text{
-            font-size: 0.6em;
+            font-size: 2vw;
             text-align: left;
-            margin: 0.4vh 0 0 2vw;
+            margin: 5% 0 0 2vw;
             padding: 0;
             margin: 0 12%;
         }
         
+
+
 
         .others{
             position: sticky;
@@ -869,7 +870,7 @@ others
             font-family: 'Anton';
         }
         .others-list{
-            font-size: 0.6em;
+            font-size: 2vw;
             margin: 0 0 0 10%;
             padding: 0;
         }
