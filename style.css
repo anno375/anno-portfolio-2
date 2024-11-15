@@ -236,7 +236,7 @@ works
 }
 .drugstore p {
     position: absolute;
-    top: 0%;
+    top: 50%;
     left: 10%;
 }
 .drugstore-img{
@@ -474,7 +474,7 @@ others
 }
 .character p {
     position: absolute;
-    top: 0%;
+    top: 50%;
     left: 10%;
 }
 .character-img{
