@@ -152,8 +152,13 @@ works
 }
 .portfolio p {
     position: absolute;
-    top: 2%;
-    left: 16%;
+    top: 1%;
+    left: 10%;
+    text-shadow:
+    1px 1px 10px #ffffff,
+    -1px 1px 10px #ffffff,
+    1px -1px 10px #ffffff,
+    -1px -1px 10px #ffffff;
 }
 .portfolio-img{
     width: 54vw;
@@ -188,8 +193,13 @@ works
 }
 .hospital p {
     position: absolute;
-    top: 0%;
-    left: 10%;
+    top: 0;
+    left: 6%;
+    text-shadow:
+    1px 1px 10px #000000,
+    -1px 1px 10px #000000,
+    1px -1px 10px #000000,
+    -1px -1px 10px #000000;
 }
 .hospital-img{
     width: 19vw;
@@ -203,8 +213,13 @@ works
 }
 .web p {
     position: absolute;
-    top: 0%;
-    left: 10%;
+    top: -30%;
+    left: 6%;
+    text-shadow:
+    1px 1px 10px #ffffff,
+    -1px 1px 10px #ffffff,
+    1px -1px 10px #ffffff,
+    -1px -1px 10px #ffffff;
 }
 .web-img{
     width: 19vw;
@@ -218,8 +233,13 @@ works
 }
 .architect p {
     position: absolute;
-    top: 0%;
-    left: 10%;
+    top: 0;
+    left: 6%;
+    text-shadow:
+    1px 1px 10px #ffffff,
+    -1px 1px 10px #ffffff,
+    1px -1px 10px #ffffff,
+    -1px -1px 10px #ffffff;
 }
 .architect-img{
     width: 19vw;
@@ -232,8 +252,13 @@ works
 }
 .drugstore p {
     position: absolute;
-    top: 50%;
-    left: 10%;
+    top: 60%;
+    left: 6%;
+    text-shadow:
+    1px 1px 10px #000000,
+    -1px 1px 10px #000000,
+    1px -1px 10px #000000,
+    -1px -1px 10px #000000;
 }
 .drugstore-img{
     width: 19vw;
@@ -386,8 +411,13 @@ others
 }
 .illustration p {
     position: absolute;
-    top: 2%;
-    left: 16%;
+    top: 1%;
+    left: 12%;
+    text-shadow:
+    1px 1px 10px #000000,
+    -1px 1px 10px #000000,
+    1px -1px 10px #000000,
+    -1px -1px 10px #000000;
 }
 .illustration-img{
     width: 54vw;
@@ -427,8 +457,13 @@ others
 }
 .graphic p {
     position: absolute;
-    top: 0%;
-    left: 10%;
+    top: 0;
+    left: 6%;
+    text-shadow:
+    1px 1px 10px #ffffff,
+    -1px 1px 10px #ffffff,
+    1px -1px 10px #ffffff,
+    -1px -1px 10px #ffffff;
 }
 .graphic-img{
     width: 19vw;
@@ -442,8 +477,13 @@ others
 }
 .fashion p {
     position: absolute;
-    top: 0%;
-    left: 10%;
+    top: -40%;
+    left: 6%;
+    text-shadow:
+    1px 1px 10px #000000,
+    -1px 1px 10px #000000,
+    1px -1px 10px #000000,
+    -1px -1px 10px #000000;
 }
 .fashion-img{
     width: 19vw;
@@ -457,8 +497,13 @@ others
 }
 .vtuber p {
     position: absolute;
-    top: 0%;
-    left: 10%;
+    top: 0;
+    left: 6%;
+    text-shadow:
+    1px 1px 10px #ffffff,
+    -1px 1px 10px #ffffff,
+    1px -1px 10px #ffffff,
+    -1px -1px 10px #ffffff;
 }
 .vtuber-img{
     width: 19vw;
@@ -472,7 +517,12 @@ others
 .character p {
     position: absolute;
     top: 50%;
-    left: 10%;
+    left: 6%;
+    text-shadow:
+    1px 1px 10px #000000,
+    -1px 1px 10px #000000,
+    1px -1px 10px #000000,
+    -1px -1px 10px #000000;
 }
 .character-img{
     width: 19vw;
@@ -555,8 +605,14 @@ others
         }
         .portfolio p {
             position: absolute;
-            top: 0;
+            top: 10%;
             left: 10%;
+            font-size: 0.8em;
+            text-shadow:
+            1px 1px 10px #000000,
+            -1px 1px 10px #000000,
+            1px -1px 10px #000000,
+            -1px -1px 10px #000000;
         }
         .portfolio-img{
             width: 72vw;
@@ -591,8 +647,9 @@ others
         }
         .hospital p {
             position: absolute;
-            top: 0%;
-            left: 10%;
+            top: -10%;
+            left: 6%;
+            font-size: 0.8em;
         }
         .hospital-img{
             width: 34vw;
@@ -607,8 +664,9 @@ others
         }
         .web p {
             position: absolute;
-            top: -40%;
-            left: 10%;
+            top: -30%;
+            left: 6%;
+            font-size: 0.8em;
         }
         .web-img{
             width: 34vw;
@@ -623,8 +681,9 @@ others
         }
         .architect p {
             position: absolute;
-            top: 0%;
-            left: 10%;
+            top: -10%;
+            left: 6%;
+            font-size: 0.8em;
         }
         .architect-img{
             width: 34vw;
@@ -638,8 +697,9 @@ others
         }
         .drugstore p {
             position: absolute;
-            top: 50%;
-            left: 10%;
+            top: 16%;
+            left: 6%;
+            font-size: 0.8em;
         }
         .drugstore-img{
             width: 34vw;
@@ -768,8 +828,9 @@ others
         }
         .illustration p {
             position: absolute;
-            top: 0;
+            top: 10%;
             left: 10%;
+            font-size: 0.8em;
         }
         .illustration-img{
             width: 72vw;
@@ -803,8 +864,9 @@ others
         }
         .graphic p {
             position: absolute;
-            top: 0%;
-            left: 10%;
+            top: -10%;
+            left: 6%;
+            font-size: 0.8em;
         }
         .graphic-img{
             width: 34vw;
@@ -819,8 +881,9 @@ others
         }
         .fashion p {
             position: absolute;
-            top: -40%;
-            left: 10%;
+            top: -30%;
+            left: 6%;
+            font-size: 0.8em;
         }
         .fashion-img{
             width: 34vw;
@@ -835,8 +898,9 @@ others
         }
         .vtuber p {
             position: absolute;
-            top: 0%;
-            left: 10%;
+            top: -10%;
+            left: 6%;
+            font-size: 0.8em;
         }
         .vtuber-img{
             width: 34vw;
@@ -850,8 +914,9 @@ others
         }
         .character p {
             position: absolute;
-            top: 50%;
-            left: 10%;
+            top: 16%;
+            left: 6%;
+            font-size: 0.8em;
         }
         .character-img{
             width: 34vw;
