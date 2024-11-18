@@ -176,7 +176,7 @@ works
     width: 54vw;
     height:38vh;
     object-fit: cover;
-    margin: 0 0 0 4vw;
+    margin: 0 0 0 2vw;
     border-radius: 4vw;
     mask-repeat: no-repeat;
     mask-position: 14vh 10vw;
@@ -597,6 +597,9 @@ others
             margin: 0;
             overflow: hidden;
         } 
+        .h-list{
+            font-size: 0.6em;
+        }
         .works{
             position: sticky;
             background-color: rgba(0, 0, 0, 0.5); 
