@@ -116,11 +116,23 @@ works
     left: 10vw;
     overflow: hidden;
     padding-bottom: 0;
-    /* transition: transform 1s, opacity 1s;
-    will-change: transform, opacity; */
 }
+
 .works-section{
     display: flex;
+    animation: fadeup 2s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+@keyframes fadeup {
+    0% {opacity: 0;
+        transform: translateX(300px);}
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 /* .works-top{} */
 .works-headline{
@@ -170,12 +182,27 @@ works
     mask-position: 14vh 10vw;
     mask-size: 80vw 80vh;
 }
-
+.portfolio-img:hover{
+    filter: brightness(30%);
+}
 .works-section2{
     display: flex;
     height: 40vh;
     overflow: hidden;
+    animation: slidein 2s cubic-bezier(0.25, 1, 0.5, 1) forwards;
 }
+@keyframes slidein {
+    0% {opacity: 0;
+        transform: translateX(-300px);}
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
 .works-item{
     width: 40vw;
     height: 36vh;
@@ -226,6 +253,9 @@ works
     border-radius: 2vw;
     object-fit: cover;
     margin-top: -3.6vh;
+}
+.web-img:hover{
+    filter: brightness(30%);
 }
 .architect{
     position: relative;
@@ -321,8 +351,11 @@ about
     mask-repeat: no-repeat;
     mask-position: 14vh 10vw;
     mask-size: 80vw 80vh;
+    animation: fadeup 1.6s cubic-bezier(0.25, 1, 0.5, 1) forwards;
 }
-/* .about-section{} */
+.about-section{
+    animation: slidein 2s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
 .about-headline{
     text-align: left;
     font-size: 5.6vw;
@@ -380,6 +413,7 @@ others
 }
 .others-section{
     display: flex;
+    animation: fadeup 1.6s cubic-bezier(0.25, 1, 0.5, 1) forwards;
 }
 /* .others-top{} */
 .others-headline{
@@ -434,6 +468,7 @@ others
     display: flex;
     height: 40vh;
     overflow: hidden;
+    animation: slidein 2s cubic-bezier(0.25, 1, 0.5, 1) forwards;
 }
 .others-item{
     width: 40vw;
@@ -627,7 +662,7 @@ others
         
         .works-section2{
             display: block;
-            /* height: 40vh; */
+            height: auto;
             overflow: hidden;
         }
         .works-item{
@@ -846,6 +881,7 @@ others
         .others-section2{
             display: block;
             overflow: hidden;
+            height: auto;
         }
         .others-item{
             width: 74vw;
