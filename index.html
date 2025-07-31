@@ -50,11 +50,28 @@
                 <div class="works-item">
                     <div class="hospital">
                         <p style="postion: absolut; top: 0; left: 2px">02</p>
-                        <a href="https://sellercentral-japan.amazon.com/aplus/api/GetContentPreview?contentId=2afdca9f-9f77-4b08-a38d-0413df7e1145&projectId=2afdca9f-9f77-4b08-a38d-0413df7e1145&revision=1753769364383&deviceType=DESKTOP"
-                            target="_blank"><img src="./assets/amazon.png" height="180" alt="no image..."
+                       <a id="dynamicLink" href="#" target="_blank"><img src="./assets/amazon.png" height="180" alt="no image..."
                                 class="web-img" style="margin-top: 0" />
                         </a>
                     </div>
+
+                    <script>
+  // PC用のURL
+  const desktopUrl = "https://sellercentral-japan.amazon.com/aplus/api/GetContentPreview?contentId=2afdca9f-9f77-4b08-a38d-0413df7e1145&projectId=2afdca9f-9f77-4b08-a38d-0413df7e1145&revision=1753769364383&deviceType=DESKTOP";
+  // モバイル用のURL
+  const mobileUrl = "https://sellercentral-japan.amazon.com/aplus/api/GetContentPreview?contentId=2afdca9f-9f77-4b08-a38d-0413df7e1145&projectId=2afdca9f-9f77-4b08-a38d-0413df7e1145&revision=1753769364383&deviceType=MOBILE";
+
+  // リンク要素を取得
+  const dynamicLink = document.getElementById("dynamicLink");
+
+  // デバイスのタイプを判定し、href属性を設定
+  if (window.innerWidth <= 768) { // 一般的なモバイルデバイスのブレイクポイント
+    dynamicLink.href = mobileUrl;
+  } else {
+    dynamicLink.href = desktopUrl;
+  }
+</script>
+                    
                     <div class="architect">
                         <p style="postion: absolut; top: 0; left: 2px">03</p>
                         <a href="https://sshoc.jp/" target="_blank"><img src="./assets/hospital.png" height="112"
